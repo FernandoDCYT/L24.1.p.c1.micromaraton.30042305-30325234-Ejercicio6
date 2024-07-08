@@ -15,10 +15,10 @@ peaje.procesarP(vehiculo4);
 
 let salida=document.getElementById("salida");
 salida.innerHTML=`
-<br>Vehiculo con placa ${vehiculo1.placa} su tarifa a pagar es de: ${vehiculo1.tarifa()}$
-<br>Vehiculo con placa ${vehiculo2.placa} su tarifa a pagar es de: ${vehiculo2.tarifa()}$
-<br>Vehiculo con placa ${vehiculo3.placa} su tarifa a pagar es de: ${vehiculo3.tarifa()}$
-<br>Vehiculo con placa ${vehiculo4.placa} su tarifa a pagar es de: ${vehiculo4.tarifa()}$ <br> 
+<br>Vehiculo con placa ${vehiculo1.placa} su tarifa a pagar es de: ${vehiculo1.tarifa()} Bs
+<br>Vehiculo con placa ${vehiculo2.placa} su tarifa a pagar es de: ${vehiculo2.tarifa()} Bs
+<br>Vehiculo con placa ${vehiculo3.placa} su tarifa a pagar es de: ${vehiculo3.tarifa()} BS
+<br>Vehiculo con placa ${vehiculo4.placa} su tarifa a pagar es de: ${vehiculo4.tarifa()} Bs <br> 
 <br>Porcentaje de vehiculos tipo particular ${peaje.porcentajeTipo1()}%
 <br>Porcentaje de vehiculos tipo transporte ${peaje.porcentajeTipo2()}%
 <br>poercentaje de vehiculos tipo carga ${peaje.porcentajeTipo3()}%
